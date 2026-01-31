@@ -1,0 +1,11 @@
+.flex {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+.same {
+  color: blue;
+  width: 50px;
+  background-color: yellow;
+}
