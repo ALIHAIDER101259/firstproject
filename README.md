@@ -1,13 +1,15 @@
-#student management system (c++)
-This is my beginner c++ project for programming fundamentals.
+#My programming projects Repository
+This repository contains multiple beginner -level programming projects in c++,java,html and css.
 
-##features
--display student record
--simple console-based system
+##project included
+student management system(c++)
+bank account system(c++)
+university management system(c++)
+budget planner(java)
 
-##Technologies used
--c++
--basic programming fundamentals
+##purpose
+These projects are created for learning programming fundamentals and object-oriented programming and data structure concepts.
 
-##Author
-Ali haider(software enginerring student)
+##author
+Ali haider -software enginerring student
+
