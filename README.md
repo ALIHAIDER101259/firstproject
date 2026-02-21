@@ -6,6 +6,8 @@ student management system(c++)
 bank account system(c++)
 university management system(c++)
 budget planner(java)
+traffic signal(c++)
+
 
 ##purpose
 These projects are created for learning programming fundamentals and object-oriented programming and data structure concepts.
