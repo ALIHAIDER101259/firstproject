@@ -7,6 +7,8 @@ bank account system(c++)
 university management system(c++)
 budget planner(java)
 traffic signal(c++)
+companyHR Database(c++)
+
 
 
 ##purpose
