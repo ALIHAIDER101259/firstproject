@@ -1,0 +1,32 @@
+#heading {
+  color: blueviolet;
+  margin-top: 20px;
+}
+
+.same {
+  margin-top: 50px;
+  border-radius: 20px;
+  width: 100px;
+  background-color: blueviolet;
+  color: wheat;
+  cursor: pointer;
+}
+
+.same:hover {
+  transition-duration: 0.3s;
+  background-color: green;
+  transform: scale(1.1);
+
+
+}
+
+.inputfield {
+  padding: 10px;
+  width: 200px;
+  display: flex;
+  gap: 20px;
+  margin-left: 100px;
+  border-radius: 20px;
+  outline: none;
+  border: 2px solid black;
+}
