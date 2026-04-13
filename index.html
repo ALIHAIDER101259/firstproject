@@ -5,76 +5,37 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
-  <link rel="stylesheet" href="cascading style sheet.css">
-
+  <link rel="stylesheet" href="CascadingStyleSheet.css">
 </head>
 
-<body>
-
-  <h1 id="heading">Calculator App</h1>
-  <input type="text" placeholder="enter the number" id="num1" class="inputfield">
-  <br />
-  <input type="text" placeholder="enter the number" id="num2" class="inputfield">
+<body style="background-color: wheat;">
 
 
-  <br />
+  <div class="implement">
+    <h1>Sign Up</h1>
 
+    <form>
+      <label>Name</label>
+      <input type="text" placeholder="Enter your name" class="width" id="separate1" />
+      <label>Email</label>
+      <input type="text" placeholder="Enter your email" class="width" id="separate2" />
+      <label>Password</label>
+      <input type="password" placeholder="Enter your password" class="width" id="separate3" />
+      <label>Confirm Password</label>
+      <input type="password" placeholder="Enter your confirm password" class="width" id="separate4" />
+      <label>Enter your hobbies</label>
+      <input type="checkbox" name="sports" value="cricket" class="same"  id="separate5"/>Cricket
+      <input type="checkbox" name="sports" value="football"  class="same" id="separate6" />Football
+      <input type="checkbox" name="sports" value="tennis ball" class="same" id="separate7"/>Tennis ball
 
-  <button id="addition" class="same">add</button>
+      <button type="submit" id="coloring">Submit</button>
+    </form>
+  </div>
 
-  <button id="substraction" class="same">substract</button>
-
-  <button id="multiplication" class="same">multiply</button>
-
-  <button id="division" class="same">divide</button>
-
-  <button id="remove" class="same">Remove</button>
-
-  <script>
-
-    let add = document.getElementById("addition");
-    let sub = document.getElementById("substraction");
-    let mult = document.getElementById("multiplication");
-    let div = document.getElementById("division");
-
-
-    let num1 = document.getElementById("num1");
-    let num2 = document.getElementById("num2");
+  <script src="firstday.js"></script>
 
 
 
-    add.addEventListener("click", function () {
-      let result = Number(num1.value) + Number(num2.value)
-      alert(result);
-    })
-
-    sub.addEventListener("click", function () {
-      let result2 = Number(num1.value) - Number(num2.value)
-      alert(result2);
-    })
-
-    mult.addEventListener("click", function () {
-      let result3 = Number(num1.value) * Number(num2.value)
-      alert(result3);
-    });
-
-    div.addEventListener("click", function () {
-
-      if (Number(num2.value === 0)) {
-        confirm("you cannot divide by zero");
-      }
-      else {
-        let result4 = Number(num1.value) / Number(num2.value);
-        alert(result4);
-      }
-    })
-
-
-
-
-
-
-  </script>
 </body>
 
 </html>
