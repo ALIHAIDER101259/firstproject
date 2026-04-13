@@ -4,7 +4,7 @@ h1 {
 
 .implement {
   border: 2px solid wheat;
-  width: 250px;
+  width: 300px;
   height: 550px;
   padding-left: 30px;
   background-color: whitesmoke;
@@ -32,7 +32,7 @@ h1 {
 }
 
 .width {
-  width: 170px;
+  width: 190px;
 }
 
 #separate1 {
