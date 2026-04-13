@@ -1,3 +1,7 @@
+h1 {
+  text-align: center;
+}
+
 .implement {
   border: 2px solid wheat;
   width: 200px;
@@ -8,23 +12,21 @@
   margin-top: 20px;
   margin-left: 50px;
   box-shadow: 4px 10px 10px 10px black;
+  display: flex;
+  justify-content: center;
+  padding-left: 15px;
+
 }
 
 .implement:hover {
   transform: translate(50px, 20px);
-  color: yellow;
-  background-color: blueviolet;
-}
-
-@media(max-width:600px) {
-  .implement {
-    padding: 10px;
-  }
 
 }
+
+
 
 #coloring {
-  width: 150px;
+  width: 200px;
   background-color: blue;
   border-radius: 20px;
   color: white;
@@ -35,7 +37,7 @@
 }
 
 .width {
-  width: 150px;
+  width: 170px;
 }
 
 #separate1 {
